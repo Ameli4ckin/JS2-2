@@ -10,7 +10,7 @@ class ProductsList {
 
     _fetchProducts() {
         this.goods = [
-            {title: 'Shirt', foto: 'examp.jpeg', price: 150}, 
+            {title: 'Shirt', foto: 'example.jpeg', price: 150}, 
             {title: 'Socks', foto: 'example.jpeg', price: 50}, 
             {title: 'Jacket', foto: 'example.jpeg', price: 350}, 
             {title: 'Shoes', foto: 'example.jpeg', price: 250}, 
