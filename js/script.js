@@ -11,9 +11,9 @@ class ProductsList {
     _fetchProducts() {
         this.goods = [
             {title: 'Shirt', foto: 'example.jpeg', price: 150}, 
-            {title: 'Socks', foto: '', price: 50}, 
-            {title: 'Jacket', foto: '', price: 350}, 
-            {title: 'Shoes', foto: '', price: 250}, 
+            {title: 'Socks', foto: 'example.jpeg', price: 50}, 
+            {title: 'Jacket', foto: 'example.jpeg', price: 350}, 
+            {title: 'Shoes', foto: 'example.jpeg', price: 250}, 
         ];
     }
 
@@ -46,7 +46,7 @@ class ProductItem {
     render() {
         return `<div class="goods-item">
             <h3 class = "title">${this.title}</h3>
-            <img class = "goods-img" src="${this.foto}"></img> 
+            <img class = "goods-img" src="img/${this.foto}"></img> 
             <p>${this.price} $</p>
             <button class="buy-btn">Купить</button>
         </div>`;
